@@ -15,3 +15,5 @@ write_csv(df, "example_data.csv")
 mean(df$y)
 
 mean(df$x)
+
+sd(df$y)
