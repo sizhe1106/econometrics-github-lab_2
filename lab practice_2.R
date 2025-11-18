@@ -11,3 +11,5 @@ ggplot(df, aes(x, y)) +
   theme_minimal()
 
 write_csv(df, "example_data.csv")
+
+mean(df$y)
